@@ -1,9 +1,12 @@
 {
   "Name": "[CP] Natural Aquarium Project - Freshwater Additions",
   "Author": "StarAmy",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Adds new freshwater fish to a variety of locations.",
   "UniqueID": "Amy.FreshAdditions",
+   "Dependencies": [    
+    {"UniqueID": "spacechase0.ContentPatcherAnimations"}
+    ],
    "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "1.20.0"
